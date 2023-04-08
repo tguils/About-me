@@ -1,14 +1,17 @@
 * {
  box-sizing: border-box;
+ background-color: black;
+ font-family: trebuchet ms, sans-serif;
 }
 
 
 .primary-navigation {
     height: 80px;
     width: 100%;
-    background-color: rgb(160, 247, 244);
+    background-color: black;
     padding: 0px;
     margin: 0px;
+    color: white;
 }
 
 .primary-navigation h1 {
@@ -23,24 +26,21 @@
    list-style: none;
    float: right;
    margin: 25px 25px 10px 25px;
-   
+   color: white;
 }
 
 .navigation-tabs li {
     display: inline-block;
     margin-left: 25px;
-    border: solid rgb(44, 159, 138) 3px;
+    border: solid rgb(91,183,232) 3px;
     padding: 10px;
     border-radius: 25%;
+    color: white;
 }
 
 .navigation-tabs li:hover {
-    background:rgb(166, 200, 230);
+    background:rgb(91,183,232);
 }
-
-.navigation-tabs li:visited {
-    background-color: rgb(44, 159, 138);
-} 
 
 .hero {
     height: 400px;
@@ -49,6 +49,7 @@
     background-size: cover;
     background-position: center;
     margin: 0px;
+    color: white;
 }
 
 .subtitle h2{
@@ -56,10 +57,10 @@
     position: relative;
     top: 320px;
     width: 300px;
-    font-size: 35px;
+    font-size: 45px;
     border: transparent;
     float: right;
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(22, 20, 20, .4);
     margin-top: 0px
 }
 
@@ -67,16 +68,18 @@
     position: relative;
     margin: 10px;
     float: left;
-    width: 80%
+    width: 80%;
+    color: white;
 }
 .aside-container {
     float: right;
     position: relative;
     top: 10px;
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
     width: 15%;
     text-decoration: underline;
+    color: white;
 }
 
 #projects {
@@ -84,7 +87,57 @@
     top: 100px;
 }
 
+.projects-container {
+    position: relative;
+    float: left;
+    width: 80%;
+    margin: 20px;
+
+    /*display: flex;*/
+    
+}
+
+.projects-container p {
+    position:absolute;
+    color:yellow;
+    border: solid yellow 5px;
+    padding: 10px;
+    margin: 20px;
+}
+
+#first-project-link {
+    position: relative;
+
+}
+
+#first-project-link p {
+    position: absolute;
+    top: 65%;
+}
+#main-project {
+    border: solid rgba(255, 255, 255, .3) 2px;
+    position: relative;
+}
+
+.project-link {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    border: solid rgba(255, 255, 255, .3) 2px;
+    
+}
+
+.project-link p {
+    position: absolute;
+    top: 70%;
+}
 #contact {
     position: relative;
-   top: 300px;
+    top: 800px;
+}
+
+.contact-information {
+    color: white;
+    position: relative;
+    float: left;
 }

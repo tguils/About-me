@@ -7,9 +7,10 @@
     <title>About Me</title>
 </head>
 <body>
-    <header>
+    <header class="header"> 
+        <h1 class="name">Tess Guilmette</h1>
         <nav class="primary-navigation">
-            <h1>Tess Guilmette</h1>
+           
             <ul class="navigation-tabs">
                 <li><a href="#about-me">About me</a></li>
                 <li><a href="#projects">Projects</a></li>
@@ -19,9 +20,7 @@
         </nav>
     </header>
     <div class="hero">
-        <div class="subtitle">
-            <h2>Welcome</h2>
-        </div>
+        <h2 class="subtitle">Welcome</h2>
     </div>
     <div class="main-wrapper">
         <div class="project-content-wrapper">
@@ -29,13 +28,13 @@
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, sequi aliquid sapiente dicta nobis excepturi perferendis a ea sed facilis quibusdam. Veniam voluptate, voluptates natus placeat aspernatur perferendis consectetur qui!</p>
             </article>
             <section class="projects-container">
-                <div id="first-project-link">
-                    <a href="#" id="main-project">
+                <div class="main-project-wrapper">
+                    <a href="#" class="main-project">
                         <p>Main Project Display</p>
                         <img src="./main-project-image.jpg" width=800px height= 400px>
                     </a>
                 </div>
-                <div>    
+                <div class="other-projects">    
                     <a href="#" class="project-link">
                         <p>Second Project</p>
                         <img src="project-two-image.jpg" width=100% height= 300px>
@@ -54,7 +53,7 @@
         </div>
 
         <aside class="aside-container">
-            <h3 id="about-me" class="">About me</h3>
+            <h3 id="about-me">About me</h3>
             <h3 id="projects" >Projects</h3>
             <h3 id="contact">Contact</h3>
          </aside>
@@ -65,5 +64,3 @@
 </body>
 </html>
 
-<!--width 1229 change styles for bottom two pictures
-width 1033 change styles for main project photo and aside stuff 900 and down needs whole need styling-->

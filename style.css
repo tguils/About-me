@@ -1,7 +1,7 @@
 * {
- box-sizing: border-box;
- font-family:Arial, Helvetica, sans-serif;
- --black-bg-color: #000;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    --black-bg-color: #000;
 }
 
 .header {
@@ -80,7 +80,6 @@
     width: 100%;
     font-size: 45px;
     border: transparent;
-    float: right;
     background-color: rgba(22, 20, 20, .4);
     margin-top: 0px
 }
@@ -98,23 +97,44 @@
     width: 100%;
 }
 
-.about-me-container {
+.project-description {
     position: relative;
-    float: left;
     width: 100%;
     color: white;
     font-size: 25px;
+    margin: 20px
 }
 
-.aside-container {
-    float: right;
+.aside-container h3{
     position: relative;
     text-align: left;
     font-size: 30px;
     width: 100%;
-    text-decoration: underline;
     color: white;
     background-color: var( --black-bg-color);
+}
+
+.aside-container img {
+    border-radius: 70px;
+    width: 100px;
+    height: 140px;
+}
+
+.about-me-bio {
+    color: white;
+    border-top: solid white 2px;
+}
+.contact-information {
+    margin-left: 0px;
+}
+
+.contact-information p{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    width: 100%;
+    font-size: 20px;
+    border-top: solid white 2px;
 }
 
 #projects {
@@ -162,13 +182,12 @@
     display: flex;
 }
 
-.other-projects img {
-    justify-content: space-between;
+.other-projects a {
+    margin: 5px;
 }
 
 .project-link {
     position: relative;
-    display: inline-block;
     margin-top: 20px;
     border: solid rgba(255, 255, 255, .3) 2px;
 }
@@ -178,13 +197,6 @@
     bottom: 20px;
 }
 
-.contact-information {
-    color: white;
-    position: relative;
-    float: left;
-    width: 100%;
-    font-size: 20px;
-}
 
 /* All screen sizes above 768px */
 @media screen and (min-width: 768px) {
@@ -232,7 +244,7 @@
         width: 80%;
     }
 
-    .about-me-container {
+    .project-description {
         width: 80%;
     }
 
@@ -240,13 +252,10 @@
         width: 20%;
     }
 
+
     .projects-container {
         margin: 20px;
         width: 80%;
     }
 
-    .contact-information {
-        margin-left: 20px;
-        width: 80%;
-    }
 }

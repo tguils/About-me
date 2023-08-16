@@ -1,20 +1,20 @@
 import './App.css';
 import React from 'react';
-import aboutme from './components/aboutme';
-import home from './components/home';
-import navbar from './components/navbar';
-import projects from './components/projects';
-import contact from './components/contact';
+import Aboutme from './components/AboutMe';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
   
   export default function App() {
     return (
       <main>
-        <navbar />
-        <home />
-        <aboutme />
-        <projects />
-        <contact />
+        <Navbar />
+        <Home />
+        <Aboutme />
+        <Projects />
+        <Contact />
       </main>
     );
   }

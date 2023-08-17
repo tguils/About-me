@@ -22,9 +22,6 @@ module.exports = {
       serif: ['Merriweather', 'serif'],
     },
     extend: {
-      BackgroundImage: {
-        'background': "url('./images/background.jpg')",
-      },
       spacing: {
         '1': '8px',
         '2': '12px',

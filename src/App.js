@@ -5,17 +5,18 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
-import Images from './images';
+import Images from './images/background.jpg';
 
 
   export default function App() {
     return (
-      <main className="bg-background bg-cover h-screen">
+      <main style={{ backgroundImage: `url(${Images})`, backgroundSize: 'cover', 
+      backgroundRepeat: 'no-repeat', 
+      backgroundAttachment: 'fixed', }} className=" h-screen">
         <Navbar />
         <Home />
         <Aboutme />
         <Projects />
-        <Images />
         <Contact />
       </main>
     );

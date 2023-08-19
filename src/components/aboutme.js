@@ -3,7 +3,7 @@ import './../App.css';
 
 export default function AboutMe() {
     return (
-        <div className="background-image">
+        <div>
         </div>
     )
 }

@@ -3,18 +3,16 @@ import './../App.css';
 
 export default function Navbar() {
     return (
-        <div className='navbar shadow-md p-4 fixed w-full flex items-center justify-between z-10 bg-opacity-75'>
-            <div className='flex items-center justify-between'>
-                <div className='text-gray-800 font-bold'> My Website </div>
-                <a href='#' className='text-gray-800 hover:text-blue-500 mx-10 transition duration-300'> Home </a>
-                <a href='#' className='text-gray-800 hover:text-blue-500 mx-10 transition duration-300'> About Me</a>
-                <a href='#' className='text-gray-800 hover:text-blue-500 mx-10 transition duration-300'> Projects</a>
-                <a href='#' className='text-gray-800 hover:text-blue-500 mx-10 transition duration-300'> Contact</a>
-        
-
-            </div>
-
+      <div className="bg-white top-0 shadow-md opacity-100 p-4 fixed w-full z-10" style={{ backgroundColor: "white" }}>
+        <div className="container d-flex justify-content-between align-items-center">
+          <div className="h2 text-gray-800 font-weight-bold">My Website</div>
+          <a href="#" className="text-gray-800 nav-link">Home</a>
+          <a href="#" className="text-gray-800 nav-link">About Me</a>
+          <a href="#" className="text-gray-800 nav-link">Projects</a>
+          <a href="#" className="text-gray-800 nav-link">Contact</a>
         </div>
-        
+      </div>
     );
-}
+  }
+            
+   

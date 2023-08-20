@@ -4,7 +4,7 @@ import './../App.css';
 export default function Contact() {
     return (
      <div  id='Contact' className='background-image'>
-        <div className='container-sm d-flex flex-row align-items-center justify-content-center position-relative 'style={{ height: '50vh' }} >
+        <div className='container-sm d-flex flex-row align-items-center justify-content-center position-relative 'style={{ height: '40vh' }} >
             <a href="https://www.linkedin.com/in/tess-guilmette/" target="_blank" className="m-auto">
             <button type="button" className='btn btn-primary row m-auto '> LinkedIn 
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">

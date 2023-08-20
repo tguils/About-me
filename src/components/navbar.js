@@ -12,16 +12,16 @@ export default function Navbar() {
         <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-            <a href="#" className="text-gray-800 fs-4 nav-link" style={{ color: "F0EB8D" }}>Home</a>
+            <a href="#Home" className="text-gray-800 fs-4 nav-link" style={{ color: "F0EB8D" }}>Home</a>
             </li>
             <li className="nav-item">
-            <a href="#" className="text-gray-800 fs-4 nav-link" style={{ color: "F0EB8D" }}>About Me</a>
+            <a href="#Projects" className="text-gray-800 fs-4 nav-link" style={{ color: "F0EB8D" }}>Projects</a>
             </li>
             <li className="nav-item">
-            <a href="#" className="text-gray-800 fs-4 nav-link" style={{ color: "F0EB8D" }}>Projects</a>
+            <a href="#AboutMe" className="text-gray-800 fs-4 nav-link" style={{ color: "F0EB8D" }}>About Me</a>
             </li>
             <li className="nav-item">
-            <a href="#" className="text-gray-800 fs-4 nav-link" style={{ color: "F0EB8D" }}>Contact</a>
+            <a href="#Contact" className="text-gray-800 fs-4 nav-link" style={{ color: "F0EB8D" }}>Contact</a>
             </li>
           </ul>
         </div>

@@ -3,7 +3,7 @@ import './../App.css';
 
 export default function Contact() {
     return (
-        <div>
+        <div id='Contact' >
         </div>
     );
 }

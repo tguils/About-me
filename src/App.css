@@ -12,19 +12,42 @@ main {
     min-height: 100vh; 
   }
 
+  .project-1 {
+    position: relative;
+}
  
+.btn {
+    background-color: #1d386b;
+    color: #F0EB8D;
+    font-weight: bold;
+    width: 100px;
+    margin: auto;
+    font-size: 20px;
+}
   .button-container {
-    position: relative; 
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #1d386b;
+    
+}
+
+.project-1:hover .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hidden-btn {
-    display: none; 
-    position: absolute;
-    bottom: 0; 
-    left: 50%;
-    transform: translateX(-50%); 
+    display: none;
 }
 
-.text-left:hover .hidden-btn {
-    display: block; 
+
+.project-1:hover .hidden-btn {
+    display: inline-block;
 }

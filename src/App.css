@@ -13,3 +13,18 @@ main {
   }
 
  
+  .button-container {
+    position: relative; 
+}
+
+.hidden-btn {
+    display: none; 
+    position: absolute;
+    bottom: 0; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+.text-left:hover .hidden-btn {
+    display: block; 
+}

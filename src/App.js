@@ -13,8 +13,8 @@ import './App.css';
       <main className="background-image">
         <Navbar />
         <Home />
-        <Aboutme />
         <Projects />
+        <Aboutme />
         <Contact />
       </main>
     );

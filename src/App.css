@@ -12,7 +12,7 @@ main {
     min-height: 100vh; 
   }
 
-  .project-1, .project-2, .project-3, .project-4, .project-5 {
+.project-1, .project-2, .project-3, .project-4, .project-5 {
     position: relative;
 }
  
@@ -23,6 +23,7 @@ main {
     width: 100px;
     margin: auto;
     font-size: 20px;
+    margin-right: 10px;
 }
   .button-container {
     display: none;
@@ -50,4 +51,12 @@ main {
 
 .project-1:hover .hidden-btn, .project-2:hover .hidden-btn, .project-3:hover .hidden-btn, .project-4:hover .hidden-btn, .project-5:hover .hidden-btn {
     display: inline-block;
+}
+
+.faded-image {
+  
+
+    filter: blur(20px); 
+    z-index: -1;
+    mix-blend-mode: soft-light;
 }

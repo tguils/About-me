@@ -11,12 +11,12 @@ export default function Projects() {
                 <div className='col-md-4 col-sm-6 mb-2 d-flex justify-content-center'>
                 
                     <div className='project-1 p-2 border border-1 border-primary' style={{ height: '300px', width: '300px', margin: '100px auto', backgroundSize: 'cover', backgroundImage: `url(${projectsImage})`}}> 
-                    <h1 className='text-center text-white position-absolute start-50 translate-middle fs-2 text-opacity-75' style={{ top: '25%',zIndex: 1 }}> Daily Calendar</h1>
+                    <h1 className='text-center text-white position-absolute start-50 translate-middle fs-2 text-opacity-75' style={{ top: '25%',zIndex: 1 }}> Pet Posts</h1>
                     <div className='button-container'>
-                    <a href="https://tguils.github.io/Daily-Calendar/" target="_blank">
+                    <a href="https://pure-bastion-75691-8de8d2af8e5c.herokuapp.com/" target="_blank">
                     <button className='btn btn-light btn-sm hidden-btn live-btn'>Live</button>
                     </a>
-                    <a href="https://github.com/tguils/Daily-Calendar" target="_blank">
+                    <a href="https://github.com/Project03Team04/Pet-Posts" target="_blank">
                     <button className='btn btn-light btn-sm hidden-btn repo-btn'>Repo</button>
                     </a>
                 </div>
